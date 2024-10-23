@@ -4,15 +4,16 @@ public class a3 {
 
         if(arr.length == 0) {
             System.err.println("Array is empty");
+            return;
         }
-        for(int i=arr.length; i>0; i--) {
-            System.out.print(i + " ");
+        for(int i=arr.length-1; i>=0; i--) {
+            System.out.print(arr[i] + " ");
         }
     }
 
     public static void main(String[] args) {
         
-        int[] arr1 = {1,2,3,4,5};
+        int[] arr1 = {1,2,3,4};
 
         printReverse(arr1);
     }
