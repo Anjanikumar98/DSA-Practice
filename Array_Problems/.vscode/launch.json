@@ -1,0 +1,39 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File", // Runs the currently open Java file
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Array Problems - a1", // Runs class a1 in Array_Problems_d4bdf97b project
+            "request": "launch",
+            "mainClass": "a1",
+            "projectName": "Array_Problems_d4bdf97b"
+        },
+        {
+            "type": "java",
+            "name": "Array Problems - a2", // Runs class a2 in Array_Problems_d4bdf97b project
+            "request": "launch",
+            "mainClass": "a2",
+            "projectName": "Array_Problems_d4bdf97b"
+        },
+        {
+            "type": "java",
+            "name": "Array Problems - a3", // Runs class a3 in Array_Problems_d4bdf97b project
+            "request": "launch",
+            "mainClass": "a3",
+            "projectName": "Array_Problems_d4bdf97b"
+        },
+        {
+            "type": "java",
+            "name": "Array Problems - a4", // Runs class a4 in Array_Problems_d4bdf97b project
+            "request": "launch",
+            "mainClass": "a4",
+            "projectName": "Array_Problems_d4bdf97b"
+        }
+    ]
+}

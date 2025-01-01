@@ -39,5 +39,6 @@ public  class a1{
         String name1 = sentence.substring(4, 10);
 
         System.out.print(name1 + " ");
+        sc.close();
     }
 }

@@ -16,8 +16,10 @@ public class a4 {
         for(int i=0; i<rows; i++) {
             for(int j=0; j<cols; j++) {
                 numbers[i][j] = sc.nextInt();
+                sc.close();
             }
         }
+        
         for(int i=0; i<rows; i++) {
             for(int j=0; j<cols; j++) {
                 System.err.print( numbers[i][j] + " ");
