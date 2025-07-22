@@ -1,6 +1,7 @@
 public class a5 {
 
     public static int[] subarray(int arr[], int tar) {
+        
         int n = arr.length;
         int sum = 0, start = 0;
 
