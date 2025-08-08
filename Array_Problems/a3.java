@@ -14,7 +14,6 @@ public class a3 {
     public static void main(String[] args) {
         
         int[] arr1 = {1,2,3,4};
-
         printReverse(arr1);
     }
 }

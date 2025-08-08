@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class merge_sort {
     private static void merge(int[] arr, int low, int mid, int high) {
+
         ArrayList<Integer> temp = new ArrayList<>();
         int left = low;
         int right = mid + 1;
@@ -36,6 +37,7 @@ public class merge_sort {
     }
 
     public static void mergeSort(int[] arr, int low, int high) {
+
         if (low >= high) return;
         int mid = (low + high) / 2 ;
         mergeSort(arr, low, mid);
@@ -43,6 +45,7 @@ public class merge_sort {
         merge(arr, low, mid, high);
     }
     public static void main(String args[]) {
+        
         Scanner sc = new Scanner(System.in);
         int n = 7;
         int arr[] = { 9, 4, 7, 6, 3, 1, 5 };
